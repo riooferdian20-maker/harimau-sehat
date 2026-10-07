@@ -1,31 +1,47 @@
 body {
-    background-color: #f2f2f2;
-    font-family: Arial;
+    background-color: #f1f8e9;
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    color: #333;
 }
 
-h1 {
-    color: #006600;
+.judul {
     text-align: center;
-    font-size: large;
-    background-color: #ff9900;
+    color: #1b5e20;
+    background-color: #c8e6c9;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .tanggal {
-    color: #555555;
     text-align: center;
+    color: #666;
+    font-style: italic;
+    margin-bottom: 25px;
 }
 
-h2 {
-    color: #006600;
-    font-size: medium;
-}
-
-p {
-    font-size: medium;
-    line-height: 1.6;
-}
-
-img {
+.gambar-harimau {
     display: block;
-    margin: auto;
+    width: 500px;
+    max-width: 100%;
+    margin: 0 auto 30px;
+    border-radius: 15px;
+    border: 5px solid #388e3c;
+}
+
+.subjudul {
+    color: #2e7d32;
+    background-color: #e8f5e9;
+    padding: 12px 15px;
+    border-left: 6px solid #2e7d32;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+.isi {
+    line-height: 1.7;
+    text-align: justify;
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
 }
